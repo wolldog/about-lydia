@@ -1,17 +1,21 @@
 import React from 'react';
+import Navbar from './navbar';
+import Container from 'react-bootstrap/Container';
 
-
-export default function Header({currentPage, handlePageChange}) {
-
+const styles = {
+    background: {
+        background: '#f5f5f5',
+        padding: '20px',
+        opacity: '0.9'
+        
+    }
+}
+export default function Header(props) {
     return (
-        <div>
-            <h1>Header</h1>
-            <ul>
-             <li><a href='#About' onClick={() => handlePageChange('About')}>About</a></li>
-             <li><a href='#Portfolio' onClick={() => handlePageChange('Portfolio')}>Portfolio</a></li>
-             <li><a href='#Contact' onClick={() => handlePageChange('Contact')}>Contact</a></li>
-             <li><a href='#Resume' onClick={() => handlePageChange('Resume')}>Resume</a></li>
-            </ul>
+        <div style={styles.background}>
+            <Container fluid>
+                <Navbar handlePageChange={props.handlePageChange} />
+            </Container>
         </div>
     );
-};
+}
