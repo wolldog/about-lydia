@@ -1,5 +1,9 @@
+/* CSS for Portfolio page */
+
+
 .card {
   position: relative;
+  transition: 1s;
 }
 
 .image {
@@ -33,4 +37,25 @@
 .heading {
   font-weight: 400;
   text-align: center;
+}
+
+.logo {
+ height: 40px;
+}
+
+.logo:hover {
+  height: 50px;
+  transition: 1s;
+}
+
+.projectLink {
+  color: black;
+  text-decoration: none;
+  
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+  transition: 1s;
+  color: black;
 }
