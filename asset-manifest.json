@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wolldog/about-lydia/static/css/main.dfe22383.css",
-    "main.js": "/wolldog/about-lydia/static/js/main.77e98780.js",
+    "main.js": "/wolldog/about-lydia/static/js/main.a7570ba6.js",
     "static/media/plate-pals.png": "/wolldog/about-lydia/static/media/plate-pals.e01f1a30d46a2fd974e8.png",
     "static/media/screenshot.png": "/wolldog/about-lydia/static/media/screenshot.bd6c531afd1df9fe8c89.png",
     "static/media/whitewall.jpg": "/wolldog/about-lydia/static/media/whitewall.b0a574712c994083ce4e.jpg",
@@ -17,10 +17,10 @@
     "static/media/linkedin.svg": "/wolldog/about-lydia/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
     "static/media/stack-overflow.svg": "/wolldog/about-lydia/static/media/stack-overflow.2b16c13845003b1854aa013e242d8570.svg",
     "main.dfe22383.css.map": "/wolldog/about-lydia/static/css/main.dfe22383.css.map",
-    "main.77e98780.js.map": "/wolldog/about-lydia/static/js/main.77e98780.js.map"
+    "main.a7570ba6.js.map": "/wolldog/about-lydia/static/js/main.a7570ba6.js.map"
   },
   "entrypoints": [
     "static/css/main.dfe22383.css",
-    "static/js/main.77e98780.js"
+    "static/js/main.a7570ba6.js"
   ]
 }
