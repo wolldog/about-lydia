@@ -7,19 +7,19 @@ import "./contact.css";
 import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
-  
+  //Declare variables to
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
+    // Get the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, username, and password
+    // Based on the input type, set the state of either email, username, and password
     if (inputType === "name") {
       setName(inputValue);
     } else if (inputType === "email") {
@@ -29,6 +29,7 @@ export default function Contact() {
     }
   };
 
+  //Handle a loss of focus on an input field
   const handleBlur = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -36,18 +37,14 @@ export default function Contact() {
     if (target.value.length === 0) {
       setErrorMessage(`Your ${inputType} is required to submit`);
     }
-    
   };
 
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of page refresh on submit
     e.preventDefault();
-
-    // Validate email address. If invalid display error message.
-    
+    // Validate email address. If invalid, display error message.
     if (!validateEmail(email)) {
       setErrorMessage("Please enter a valid email address");
-      // Exit out of this code block so that the user can correct it
       return;
     }
 
@@ -58,19 +55,21 @@ export default function Contact() {
     setName("");
     setEmail("");
     setMessage("");
+    setErrorMessage("");
   };
 
   return (
 
+    //Display error message if required
     <div>
       <h1 className="heading">Contact</h1>
-         {errorMessage && (
-      <div>
-        <p className="error">{errorMessage}</p>
-      </div>
-    )}
-    
-      <Form className="formContainer" style={{width:'75%', margin:'auto'}}>
+      {errorMessage && (
+        <div>
+          <p className="error">{errorMessage}</p>
+        </div>
+      )}
+
+      <Form className="formContainer" style={{ width: "75%", margin: "auto" }}>
         <Form.Group className="mb-4">
           <Form.Label>Name</Form.Label>
           <Form.Control
@@ -112,7 +111,6 @@ export default function Contact() {
           Submit
         </Button>
       </Form>
-
     </div>
   );
 }
