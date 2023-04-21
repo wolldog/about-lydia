@@ -1,7 +1,10 @@
+//import dependencies; React, Bootstrap components
+
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
+// React module styling
 const styles = {
   links: {
     fontSize: "larger",
@@ -15,6 +18,7 @@ const styles = {
   },
 };
 
+//Export navbar component
 export default function Navigation(props) {
   return (
     <Navbar expand="md">
@@ -31,7 +35,6 @@ export default function Navigation(props) {
           >
             About
           </Nav.Link>
-
           <Nav.Link
             style={styles.links}
             href="#Portfolio"
@@ -39,7 +42,6 @@ export default function Navigation(props) {
           >
             Portfolio
           </Nav.Link>
-
           <Nav.Link
             style={styles.links}
             href="#Contact"
@@ -47,7 +49,6 @@ export default function Navigation(props) {
           >
             Contact
           </Nav.Link>
-
           <Nav.Link
             style={styles.links}
             href="#Resume"
@@ -57,8 +58,6 @@ export default function Navigation(props) {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-
-      {/* </Container> */}
     </Navbar>
   );
 }
