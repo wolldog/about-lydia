@@ -1,6 +1,8 @@
+// import dependencies
 import React from "react";
 import Navigation from "./navbar";
 
+// CSS Module
 const styles = {
   background: {
     background: "#f5f5f5",
@@ -10,9 +12,11 @@ const styles = {
   },
 };
 
+// Export Header component
 export default function Header(props) {
   return (
     <div style={styles.background}>
+      {/* Pass handlePageChange to Navbar */}
       <Navigation handlePageChange={props.handlePageChange} />
     </div>
   );

@@ -1,3 +1,4 @@
+// import dependencies; React, Components
 import React, { useState } from "react";
 import About from "./components/about";
 import Contact from "./components/contact";

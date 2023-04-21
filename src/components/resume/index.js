@@ -1,13 +1,12 @@
-
+//import dependencies; React, Bootstrap components, internal assets
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
-
-
 import "./resume.css";
 import resume from "../../assets/pdf/ResumeAug22.pdf";
 
+// export Resume page component
 export default function Resume() {
   return (
     <div>
