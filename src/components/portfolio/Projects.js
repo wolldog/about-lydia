@@ -1,5 +1,6 @@
 export const Projects = [
   {
+    id: "1",
     title: "Share Shed",
     tech: "Node, MySQL",
     deployedLink: "https://obscure-woodland-19082.herokuapp.com/",
@@ -8,6 +9,7 @@ export const Projects = [
     alt: "A Parako chainsaw spray painted on a a wall"
   },
   {
+    id: "2",
     title: "Weather Or Not",
     tech: "JavaScript, Bootstrap",
     deployedLink: "https://wolldog.github.io/weather-or-not/",
@@ -16,6 +18,7 @@ export const Projects = [
     alt: "A sun partially covered by a cloud painted in yellow on a grey wall"
   },
   {
+    id: "3",
     title: "Spoof Social",
     tech: "JavaScript",
     deployedLink: "https://watch.screencastify.com/v/4FjBTkkKpFBRZIFhniEr",
@@ -24,6 +27,7 @@ export const Projects = [
     alt: "Banksie style artwork of child's siloette holding a bunch of colourful balloons depicting social media logos"
   },
   {
+    id: "4",
     title: "Take Note",
     tech: "JavaScript",
     deployedLink: "https://agile-cliffs-83755.herokuapp.com/notes",
@@ -32,6 +36,7 @@ export const Projects = [
     alt: "A blue, pink and orange mural with the words 'I will never forget you!"
   },
   {
+    id: "5",
     title: "Plate Pals",
     tech: "Node, MySQL",
     deployedLink: "https://obscure-woodland-19082.herokuapp.com/",
@@ -40,6 +45,7 @@ export const Projects = [
     alt: "A colourful mural painted on a wall depicting a 3 patty burger with eyes and a moustache"
   },
   {
+    id: "6",
     title: "BlogIT",
     tech: "Node, MySQL",
     deployedLink: "https://powerful-plateau-20197.herokuapp.com/",

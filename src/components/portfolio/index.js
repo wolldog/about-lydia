@@ -21,10 +21,10 @@ export default function Portfolio() {
         <Row xs={1} md={2} lg={3} className="g-4">
           
           {/* Map 'Projects' to cards */}
-          {Projects.map((project, index) => {
+          {Projects.map((project) => {
             return (
-              <Col key={index}>
-                <Card className="card">
+              <Col>
+                <Card className="card" key={project.id}>
                   <Card.Img
                     src={require("../../assets/image/" +
                       project.image +
