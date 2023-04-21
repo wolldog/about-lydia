@@ -1,18 +1,14 @@
+// import dependencies; React, Bootstrap components and internal files
 import React from "react";
-import { Projects } from "./Projects";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "./portfolio.css";
 import { Container } from "react-bootstrap";
 import github from "../../assets/icons/github.svg";
+import { Projects } from "./Projects";
+import "./portfolio.css";
 
-const styles = {
-  icon: {
-    height: "40px",
-  },
-};
-
+//export Portfolio page
 export default function Portfolio() {
   return (
     <div>
@@ -23,6 +19,8 @@ export default function Portfolio() {
       </Row>
       <Container className="pageContent">
         <Row xs={1} md={2} lg={3} className="g-4">
+          
+          {/* Map 'Projects' to cards */}
           {Projects.map((project, index) => {
             return (
               <Col>
@@ -31,6 +29,7 @@ export default function Portfolio() {
                     src={require("../../assets/image/" +
                       project.image +
                       ".png")}
+                    alt={project.alt}
                     className="image"
                     key={index}
                   />
@@ -40,7 +39,7 @@ export default function Portfolio() {
                     </a>
                     <h4 className="techs">{project.tech}</h4>
                     <a href={project.github}>
-                      <img style={styles.icon} src={github} />
+                      <img className="logo" src={github} alt="gitHub logo" />
                     </a>
                   </div>
                 </Card>
