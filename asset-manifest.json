@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/wolldog/about-lydia/static/css/main.dfe22383.css",
-    "main.js": "/wolldog/about-lydia/static/js/main.a7570ba6.js",
-    "static/media/plate-pals.png": "/wolldog/about-lydia/static/media/plate-pals.e01f1a30d46a2fd974e8.png",
-    "static/media/screenshot.png": "/wolldog/about-lydia/static/media/screenshot.bd6c531afd1df9fe8c89.png",
-    "static/media/whitewall.jpg": "/wolldog/about-lydia/static/media/whitewall.b0a574712c994083ce4e.jpg",
-    "static/media/weatherOrNot.png": "/wolldog/about-lydia/static/media/weatherOrNot.f7b65bd23ec119267d9b.png",
-    "static/media/spoof-social.png": "/wolldog/about-lydia/static/media/spoof-social.519cd6531f333e7cedd0.png",
-    "static/media/ResumeAug22.pdf": "/wolldog/about-lydia/static/media/ResumeAug22.b979d70ee9f3fdebac74.pdf",
-    "static/media/profile-pic.png": "/wolldog/about-lydia/static/media/profile-pic.883a39aec313072e9691.png",
-    "static/media/share-shed.png": "/wolldog/about-lydia/static/media/share-shed.8db74b4b6740429f8004.png",
-    "static/media/take-note.png": "/wolldog/about-lydia/static/media/take-note.a6051f9ffba73cb730da.png",
-    "static/media/blog-IT.png": "/wolldog/about-lydia/static/media/blog-IT.ddb65707654a71599276.png",
-    "index.html": "/wolldog/about-lydia/index.html",
-    "static/media/github.svg": "/wolldog/about-lydia/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
-    "static/media/linkedin.svg": "/wolldog/about-lydia/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
-    "static/media/stack-overflow.svg": "/wolldog/about-lydia/static/media/stack-overflow.2b16c13845003b1854aa013e242d8570.svg",
-    "main.dfe22383.css.map": "/wolldog/about-lydia/static/css/main.dfe22383.css.map",
-    "main.a7570ba6.js.map": "/wolldog/about-lydia/static/js/main.a7570ba6.js.map"
+    "main.css": "/about-lydia/static/css/main.8e56293f.css",
+    "main.js": "/about-lydia/static/js/main.cfe9cb7f.js",
+    "static/media/plate-pals.png": "/about-lydia/static/media/plate-pals.e01f1a30d46a2fd974e8.png",
+    "static/media/screenshot.png": "/about-lydia/static/media/screenshot.bd6c531afd1df9fe8c89.png",
+    "static/media/whitewall.jpg": "/about-lydia/static/media/whitewall.b0a574712c994083ce4e.jpg",
+    "static/media/weatherOrNot.png": "/about-lydia/static/media/weatherOrNot.f7b65bd23ec119267d9b.png",
+    "static/media/spoof-social.png": "/about-lydia/static/media/spoof-social.519cd6531f333e7cedd0.png",
+    "static/media/ResumeAug22.pdf": "/about-lydia/static/media/ResumeAug22.b979d70ee9f3fdebac74.pdf",
+    "static/media/profile-pic.png": "/about-lydia/static/media/profile-pic.883a39aec313072e9691.png",
+    "static/media/share-shed.png": "/about-lydia/static/media/share-shed.8db74b4b6740429f8004.png",
+    "static/media/take-note.png": "/about-lydia/static/media/take-note.a6051f9ffba73cb730da.png",
+    "static/media/blog-IT.png": "/about-lydia/static/media/blog-IT.ddb65707654a71599276.png",
+    "static/media/github.svg": "/about-lydia/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
+    "static/media/linkedin.svg": "/about-lydia/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "index.html": "/about-lydia/index.html",
+    "static/media/stack-overflow.svg": "/about-lydia/static/media/stack-overflow.2b16c13845003b1854aa013e242d8570.svg",
+    "main.8e56293f.css.map": "/about-lydia/static/css/main.8e56293f.css.map",
+    "main.cfe9cb7f.js.map": "/about-lydia/static/js/main.cfe9cb7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfe22383.css",
-    "static/js/main.a7570ba6.js"
+    "static/css/main.8e56293f.css",
+    "static/js/main.cfe9cb7f.js"
   ]
 }
