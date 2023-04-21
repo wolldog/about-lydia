@@ -1,0 +1,21 @@
+.download {
+  margin: auto;
+}
+
+.title {
+  max-width: 50%;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  font-size: larger;
+}
+
+li {
+  padding: 0.5rem 1.5rem 1rem;
+  border-radius: 1.5rem;
+  background: rgba(245, 245, 245, 0.7);
+  margin: 0.5rem;
+}

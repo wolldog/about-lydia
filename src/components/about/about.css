@@ -1,0 +1,20 @@
+.image {
+  max-height: 45vh;
+  max-width: auto;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+  font-size: large;
+}
+
+.emphasis {
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.heading {
+  font-weight: 400;
+}
+
