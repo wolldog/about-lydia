@@ -23,7 +23,7 @@ export default function Portfolio() {
           {/* Map 'Projects' to cards */}
           {Projects.map((project, index) => {
             return (
-              <Col>
+              <Col key={index}>
                 <Card className="card">
                   <Card.Img
                     src={require("../../assets/image/" +
@@ -31,7 +31,6 @@ export default function Portfolio() {
                       ".png")}
                     alt={project.alt}
                     className="image"
-                    key={index}
                   />
                   <div className="overlay">
                     <a className="projectLink" href={project.deployedLink}>
