@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import "./resume.css";
-import resume from "../../assets/pdf/ResumeAug22.pdf";
+import resume from "../../assets/pdf/LW-resume.pdf";
 
 // export Resume page component
 export default function Resume() {
