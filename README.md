@@ -13,7 +13,10 @@ N/A
 
 ### Usage
 
-Link to deployed application
+Follow the link to the deployed application
+
+[It's all about me!](https://wolldog.github.io/about-lydia)
+
 
 ### Tests
 
