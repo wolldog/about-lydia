@@ -59,17 +59,23 @@ export default function Contact() {
   };
 
   return (
-
     //Display error message if required
     <div>
       <h1 className="heading">Contact</h1>
+      <p className="mx-auto my-5" style={{fontSize: "larger", width: "50%", fontWeight: "bold"}}>
+        {" "}
+        If you are interested in knowing more, please do not hesitate to contact
+        me directly at{" "}
+        <a href={"mailto:lydiawallis@live.co.uk"}>lydiawallis@live.co.uk</a> , or
+        use the form below.
+      </p>
       {errorMessage && (
         <div>
           <p className="error">{errorMessage}</p>
         </div>
       )}
 
-      <Form className="formContainer" style={{ width: "75%", margin: "auto" }}>
+      <Form className="formContainer" style={{ width: "50%", margin: "auto" }}>
         <Form.Group className="mb-4">
           <Form.Label>Name</Form.Label>
           <Form.Control
