@@ -19,7 +19,6 @@ export default function Portfolio() {
       </Row>
       <Container className="pageContent">
         <Row xs={1} md={2} lg={3} className="g-4">
-          
           {/* Map 'Projects' to cards */}
           {Projects.map((project) => {
             return (
@@ -37,6 +36,7 @@ export default function Portfolio() {
                       <h3> {project.title}</h3>
                     </a>
                     <h4 className="techs">{project.tech}</h4>
+                    <p className="description">{project.description}</p>
                     <a href={project.github}>
                       <img className="logo" src={github} alt="gitHub logo" />
                     </a>

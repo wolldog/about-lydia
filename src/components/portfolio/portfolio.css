@@ -59,3 +59,7 @@
   transition: 1s;
   color: black;
 }
+
+.description {
+  width: 80%;
+}
