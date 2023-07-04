@@ -62,12 +62,15 @@ export default function Contact() {
     //Display error message if required
     <div>
       <h1 className="heading">Contact</h1>
-      <p className="mx-auto my-5" style={{fontSize: "larger", width: "50%", fontWeight: "bold"}}>
+      <p
+        className="mx-auto my-5"
+        style={{ fontSize: "larger", width: "50%", fontWeight: "bold" }}
+      >
         {" "}
-        If you are interested in knowing more I would love to hear from you, please contact
-        me directly at{" "}
-        <a href={"mailto:lydiawallis@live.co.uk"}>lydiawallis@live.co.uk</a> , or
-        use the form below.
+        If you are interested in knowing more I would love to hear from you,
+        please contact me directly at{" "}
+        <a href={"mailto:lydiawallis@live.co.uk"}>lydiawallis@live.co.uk</a> ,
+        or use the form below.
       </p>
       {errorMessage && (
         <div>
